@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'de-DE'
+title = 'IG Spur 0'
+theme = 'ananke'
+
+[params.spur0]
+  motto = 'Wir sind Spur 0!'
+
+[params.ananke]
+  show_recent_posts = false
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "Startseite"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "datenschutz"
+    name = "Datenschutz"
+    url = "/datenschutz"
+    weight = 30
+  [[menu.main]]
+    identifier = "verein"
+    name = "Verein"
+    url = "/verein"
+    weight = 20
