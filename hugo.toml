@@ -3,8 +3,12 @@ languageCode = 'de-DE'
 title = 'IG Spur 0'
 theme = 'ananke'
 
+[params]
+  custom_css = ["custom.css"]
+
 [params.spur0]
   motto = 'Motto'
+  logo_text = 'Text-Logo'
 
 [params.ananke]
   show_recent_posts = false
@@ -28,7 +32,7 @@ theme = 'ananke'
   [[menu.main]]
     identifier = "kontakt"
     name = "Kontakt"
-    url = "/kontak"
+    url = "/kontakt"
     weight = 40
   [[menu.main]]
     identifier = "datenschutz"

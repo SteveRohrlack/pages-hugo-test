@@ -58,12 +58,16 @@
   <body class="ma0 {{ $.Param "body_classes"  | compare.Default "avenir bg-near-white"}} {{ $environment }}">
 
     {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
-    <main class="pb7" role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-    <aside class="main-aside" role="aside">
-      {{ block "aside" . }}{{ end }}
-    </aside>
+
+    <div class="page flex-ns">
+      <aside class="w-25-ns" role="aside">
+        {{ block "aside" . }}{{ end }}
+      </aside>
+      <main class="w-75-ns" role="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+
     {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{ end }}
   </body>
 </html>

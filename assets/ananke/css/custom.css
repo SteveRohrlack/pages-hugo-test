@@ -1,0 +1,11 @@
+.page {
+  /* display: flex; */
+}
+
+.page {
+  min-height: calc(100vh - 70px - 61px);
+}
+
+.page > aside .menu-main {
+  margin: 0;
+}

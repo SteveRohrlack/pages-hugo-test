@@ -1,7 +1,7 @@
 {{ if .Site.Menus.main }}
-<ul class="{{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+<ul class="menu-main ph3 list {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
   {{ range .Site.Menus.main }}
-  <li class="list f5 f4-ns fw4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+  <li class="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30 {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
     <a class="hover-black black-90 no-underline" href="{{ .URL }}" title="{{ lang.Translate "pageTitle" . }}">
       {{ .Name }}
     </a>
