@@ -25,3 +25,7 @@ theme = 'ananke'
     name = "Verein"
     url = "/verein"
     weight = 20
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
