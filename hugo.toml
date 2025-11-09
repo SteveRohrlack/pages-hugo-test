@@ -4,7 +4,7 @@ title = 'IG Spur 0'
 theme = 'ananke'
 
 [params.spur0]
-  motto = 'Wir sind Spur 0!'
+  motto = 'Motto'
 
 [params.ananke]
   show_recent_posts = false
@@ -16,15 +16,25 @@ theme = 'ananke'
     url = "/"
     weight = 10
   [[menu.main]]
-    identifier = "datenschutz"
-    name = "Datenschutz"
-    url = "/datenschutz"
-    weight = 30
-  [[menu.main]]
     identifier = "verein"
     name = "Verein"
     url = "/verein"
     weight = 20
+  [[menu.main]]
+    identifier = "anlage"
+    name = "Anlage"
+    url = "/anlage"
+    weight = 30
+  [[menu.main]]
+    identifier = "kontakt"
+    name = "Kontakt"
+    url = "/kontak"
+    weight = 40
+  [[menu.main]]
+    identifier = "datenschutz"
+    name = "Datenschutz"
+    url = "/datenschutz"
+    weight = 50
 
 [caches]
   [caches.images]

@@ -1,4 +1,4 @@
-# Willkommen
+## Willkommen
 
 {{<figure src="/images/400.png"
   caption="Text zur Beschreibung: Bild 1"
