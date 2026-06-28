@@ -6,7 +6,7 @@ theme = 'ananke'
 [params]
   custom_css = ["custom.css"]
   recent_posts_number = 999
-  date_format = "Mon, 02 Jan 2006 15:04"
+  date_format = "02 Jan 2006"
 
 [params.spur0]
   motto = 'Informationen und Neuigkeiten der Spur1-Freunde aus Naumburg'
