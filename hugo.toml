@@ -1,14 +1,14 @@
 # baseURL = 'https://steverohrlack.github.io/pages-hugo-test/'
 languageCode = 'de-DE'
-title = 'IG Spur 0'
+title = 'IG Spur1-Mitteldeutschland'
 theme = 'ananke'
 
 [params]
   custom_css = ["custom.css"]
 
 [params.spur0]
-  motto = 'Motto'
-  logo_text = 'Text-Logo'
+  motto = 'Informationen und Neuigkeiten der Spur1-Freunde aus Naumburg'
+  logo_text = 'IG Spur1-Mitteldeutschland'
 
 [params.ananke]
   show_recent_posts = false
@@ -20,25 +20,15 @@ theme = 'ananke'
     url = "/"
     weight = 10
   [[menu.main]]
-    identifier = "verein"
-    name = "Verein"
-    url = "/verein"
+    identifier = "ueber"
+    name = "Über"
+    url = "/ueber"
     weight = 20
-  [[menu.main]]
-    identifier = "anlage"
-    name = "Anlage"
-    url = "/anlage"
-    weight = 30
-  [[menu.main]]
-    identifier = "kontakt"
-    name = "Kontakt"
-    url = "/kontakt"
-    weight = 40
   [[menu.main]]
     identifier = "datenschutz"
     name = "Datenschutz"
     url = "/datenschutz"
-    weight = 50
+    weight = 30
 
 [caches]
   [caches.images]
