@@ -9,3 +9,10 @@
 .page > aside .menu-main {
   margin: 0;
 }
+
+.post-date {
+  display: block;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
