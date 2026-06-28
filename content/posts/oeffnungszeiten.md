@@ -8,6 +8,7 @@ Liebe Modellbahnfreunde,
 
 in der Zeit zwischen unseren gemeinsamen Modellbahnausstellungen im Frühjahr und Herbst ist unser Treffpunkt Eisenbahn in der Regel Freitag von   10-16Uhr geöffnet. Bitte informieren sie sich vorab.
 
-{{<figure src="/images/400.png"
-  caption="Text zur Beschreibung: Bild 1"
+{{<figure
+  src="/images/2025 Plakat Treffpunkt Eisenbahn.jpg"
+  link="images/2025 Plakat Treffpunkt Eisenbahn.jpg"
 >}}
